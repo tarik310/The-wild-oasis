@@ -129,7 +129,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--color-brand-50);
+  background: var(--color-grey-200);
 }
 
 /* Handle */
