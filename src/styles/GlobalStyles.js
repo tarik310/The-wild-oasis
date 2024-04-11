@@ -122,7 +122,25 @@ body {
   line-height: 1.5;
   font-size: 1.6rem;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-brand-50);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-600);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-800);
+}
 input,
 button,
 textarea,
