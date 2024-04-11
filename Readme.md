@@ -16,4 +16,4 @@ You can visit the application with [Live Demo App](https://tarik-project-the-wil
 
 ![Bookings](./demoImages/image3.png)
 
-The Wild Oasis was made with guidance from the Instructor Jonas Schmedtmann and Tareq Harh
+The Wild Oasis was made with guidance from the Instructor **Jonas Schmedtmann and the Developer Tareq Harh**
