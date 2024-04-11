@@ -2,7 +2,7 @@ import styled from "styled-components";
 import LoginForm from "../features/authentication/LoginForm";
 import Logo from "../ui/Logo";
 import Heading from "../ui/Heading";
-
+import DemoMessage from "../ui/DemoMessage";
 const LoginLayout = styled.main`
   min-height: 100vh;
   display: grid;
@@ -18,6 +18,7 @@ function Login() {
     <LoginLayout>
       <Logo />
       <Heading as="h4">Log in to your account</Heading>
+      <DemoMessage message="You can Log in directly for the demo version" />
       <LoginForm />
     </LoginLayout>
   );

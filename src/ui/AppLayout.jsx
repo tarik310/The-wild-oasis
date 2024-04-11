@@ -33,7 +33,7 @@ function AppLayout() {
         <Sidebar />
         <Main>
           <Container>
-            <DemoMessage />
+            <DemoMessage message="Inserting, updating, and deleting data features are DISABLED. This app is used for Demo only." />
             <Outlet />
           </Container>
         </Main>

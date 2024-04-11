@@ -7,13 +7,10 @@ const StyledDemoMessage = styled.div`
   color: var(--color-grey-0);
   border-radius: 10px;
 `;
-export default function DemoMessage() {
+export default function DemoMessage({ message }) {
   return (
     <StyledDemoMessage>
-      <p>
-        Inserting, updating, and deleting data features are <strong>DISABLED</strong>.
-        This app is used for Demo only.
-      </p>
+      <p>{message}</p>
     </StyledDemoMessage>
   );
 }
