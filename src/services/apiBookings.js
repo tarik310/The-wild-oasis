@@ -611,7 +611,6 @@ export async function getStaysAfterDate(date) {
       new Date(item.startDate) > new Date(date) &&
       new Date(item.startDate) < new Date(getToday())
   );
-  console.log(filteredData);
   // if (error) {
   //   console.error(error);
   //   throw new Error("Bookings could not get loaded");
